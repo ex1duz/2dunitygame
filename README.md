@@ -26,7 +26,7 @@ Here is a directory of this 'REAME.md' file:
 2. [Building Process of this 2D Unity Game](#buildingprocess)
 3. [Deployment Process of this 2D Unity Game](#deploymentprocess)
 4. [How to upload a Unity game into Github?](#howtoupload)
-5. [How to download and use this 2D Unity Game source code to recreate the game in your Unity editor/software?](#howtodownloadanduse)
+5. [How to download and use this Unity source code on Github in your Unity editor/software?](#howtodownloadanduse)
 
 <br>
 
@@ -75,7 +75,7 @@ the music is i use [AIVA](https://www.aiva.ai/), an AI that generates original m
 
 ## 3. Deployment Process of this 2D Unity Game <a name = "deploymentprocess"></a>
 
-Deployed on '[itch.io](https://itch.io/)', here is my 'itch.io' account as recommended by the GDTitans in the youtube vid
+Deployed on '[itch.io](https://itch.io/)', here is my 'itch.io' account https://windjammer6.itch.io/, as recommended by the GDTitans in the youtube vid
 
 Here the specific game link: https://windjammer6.itch.io/2d-unity-game-by-windjammer6
 
@@ -91,7 +91,7 @@ Here the specific game link: https://windjammer6.itch.io/2d-unity-game-by-windja
 
 <br>
 
-## 5. How to download and use this source code in your Unity editor/software? <a name = "howtodownloadanduse"></a>
+## 5. How to download and use this Unity source code on Github in your Unity editor/software? <a name = "howtodownloadanduse"></a>
 
 *Source(s):*  
 + https://www.youtube.com/watch?v=I9QK_2QW9W8 (Unity Hero) (Youtube video labelled 'How to import GitHub projects into Unity!' by Unity Hero) 
