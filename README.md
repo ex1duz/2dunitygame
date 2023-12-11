@@ -5,13 +5,14 @@ Game demonstration:
 for winning/good ending
 
 
-https://github.com/WindJammer6/19.-2D-Unity-Game/assets/98175995/48e11fa2-a195-4036-9b10-40027917d39b
+https://github.com/WindJammer6/19.-2D-Unity-Game/assets/98175995/214bc246-3191-4908-95a5-9f5b54e82734
 
 
 
 for game over/bad ending
 
-https://github.com/WindJammer6/19.-2D-Unity-Game/assets/98175995/eb9c55a5-9976-449f-9359-0551532a6f6d
+
+https://github.com/WindJammer6/19.-2D-Unity-Game/assets/98175995/0d0364c2-50fb-4e1c-815c-3e8986bcbbfc
 
 
 
@@ -46,13 +47,12 @@ This game is built on Unity, so obviusly will need to download [Unity](https://u
 Bird sprite taken from the unity tutorial for complete beginners, and the cloud spawner code and idea too
 
 
-https://github.com/WindJammer6/19.-2D-Unity-Game/assets/98175995/c030106a-4ea1-4a8e-b0d3-10ad21f52192
+https://github.com/WindJammer6/19.-2D-Unity-Game/assets/98175995/755ab70f-c03e-404d-b0d2-cb05385884ca
 
 
 
 
-https://github.com/WindJammer6/19.-2D-Unity-Game/assets/98175995/4147cb83-9508-4467-a7ac-e008fac1743d
-
+https://github.com/WindJammer6/19.-2D-Unity-Game/assets/98175995/ecd2ea31-160f-48bb-b2c9-22edc9b3ba4f
 
 
 Other sprites is taken from googling and taking whatever music that pops up
