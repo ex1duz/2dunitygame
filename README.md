@@ -41,7 +41,7 @@ nil
 
 ## 2. Building Process of this 2D Unity Game <a name = "buildingprocess"></a>
 
-Heavily inspired from Mario, the pixel style art, and the movements of the game, and objectives
+Heavily inspired from Mario and genshin (interaction stuffs), the pixel style art, and the movements of the game, and objectives
 This game is built on Unity, so obviusly will need to download [Unity](https://unity.com/download), and an IDE to do the C# script coding, which I used VS code
 
 Bird sprite taken from the unity tutorial for complete beginners, and the cloud spawner code and idea too
