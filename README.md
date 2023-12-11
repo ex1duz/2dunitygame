@@ -17,6 +17,8 @@ https://github.com/WindJammer6/19.-2D-Unity-Game/assets/98175995/eb9c55a5-9976-4
 
 Video done by me, using OBS Studio software for screen recording and VideoPad Video Editor (by NCH Software) for video editing.
 
+game does not work for mobile, only laptop, PC, or basically anywhere that has a keyboard of up down left right arrows since the game only detects these key presses in order to move the character, and not touchscreen controls (idk how do this yet bruh)
+
 ## Table of Contents
 Here is a directory of this 'REAME.md' file:
 1. [Game Idea](#gameidea)
