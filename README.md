@@ -45,7 +45,7 @@ For this prototype 2D Unity game, there is a very vague storyline, as I did not 
 
 *Game Objectives-related (in time order of the game):*  
 1. Find a way to leave the castle-village (which is that you need to interact with the Chief NPC to get the 'bow' weapon, before the Guard NPC allows you to leave by opening the castle gates)
-2. Survive the forest with enemies using the weapon (if the character loses all its health then you will lose the game)
+2. Survive the forest with enemies using the 'bow' weapon (if the character loses all its health then you will lose the game)
 3. Obtain the legendary sword at the end of the level to clear the game successfully
 
 Links sources when building the Unity game: https://www.youtube.com/watch?v=XtQMytORBmM&t=1s (Intro to Unity)  
