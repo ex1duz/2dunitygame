@@ -69,14 +69,14 @@ Here is a directory of this 'REAME.md' file:
 ## 1. Game Idea <a name = "gameidea"></a>  
 The design of this 2D Unity game is heavily inspired from [original (OG) Super Mario Bros.](https://supermarioplay.com/) and [Genshin Impact](https://genshin.hoyoverse.com/en), both games that I have played before, with also many aspects of the initial ideas of the game from my friend, [WolfPark](https://github.com/wolfparktaerim). 
 
-*Aspects of the 2D Unity game inspired by the OG Super Mario Bros.:*  
+*Aspects of the 2D Unity game inspired by the [OG Super Mario Bros.](https://supermarioplay.com/):*  
 - The 2D level design
 - Character movement
 - Enenmy NPC behaviour 
 - Health system and damage system
 - The pixel-style art aesthetics
 
-*Aspects of the 2D Unity game inspired by Genshin Impact:*  
+*Aspects of the 2D Unity game inspired by [Genshin Impact](https://genshin.hoyoverse.com/en):*  
 - Friendly NPC interaction feature
 - Interaction-related game objective (e.g. the ''1. Find a way to leave the castle-village' game objective)
 
