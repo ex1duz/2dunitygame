@@ -1,5 +1,13 @@
-# 19.-2D-Unity-Game
+# 19.-2D-Unity-Game :bird:🏰
 Here the specific game link: https://windjammer6.itch.io/2d-unity-game-by-windjammer6
+
+Links sources when building the Unity game: https://www.youtube.com/watch?v=XtQMytORBmM&t=1s (Intro to Unity)  
+https://www.youtube.com/watch?v=msTvOG4w80I (how to add animation to the sprites in Unity)
+
+https://www.youtube.com/watch?v=CO4BGZOuUkM (how to run C# code in vscode youtube vid)
+
+https://www.youtube.com/watch?v=GhQdlIFylQ8&t=12271s (learn C# code archives youtube vid)
+
 
 Game demonstration:
 for winning/good ending
