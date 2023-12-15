@@ -1,5 +1,5 @@
 # 19.-2D-Unity-Game :bird:🏰
-While trying to develop a 2D Unity game for a friend of mine (Github: [WolfPark](https://github.com/wolfparktaerim)), I thought that while my friend decides on the art aesthetics of the game, I could further familiarise myself with the process of creating a Unity game by creating a prototype 2D Unity game in advance, with sprites I found from Googling as a placeholder for the art aesthetics. This 2D Unity game can serve as the foundation for any further developments in the video game [WolfPark](https://github.com/wolfparktaerim) is trying to develop.
+While trying to develop a 2D Unity game for a friend of mine (Github: [WolfPark](https://github.com/wolfparktaerim)), I thought that while my friend decides on the art aesthetics of the game, I could further familiarise myself with the process of creating a Unity game by creating a prototype 2D Unity game in advance, with sprites I found from Googling as a placeholder for the art aesthetics. This 2D Unity game can serve as the foundation for any further possible developments in the video game [WolfPark](https://github.com/wolfparktaerim) is trying to develop.
 
 Here is the link of the deployed 2D Unity game on '[itch.io](https://itch.io/)': https://windjammer6.itch.io/2d-unity-game-by-windjammer6 (Click the link to play the game!)
 
@@ -23,6 +23,7 @@ Disclaimer: This 2D Unity game does not work for mobile, only for laptop, PC, or
 
 <br>
 
+**Features of the 2D Unity game:**  
 For this prototype 2D Unity game, there is a very vague storyline, as I did not dwell too much on that, but it is more focused towards adding various interesting features via C# programming into the game. Here is a list of features in the 2D Unity game:  
 *Character-related:*  
 1. Horizontal movement (left and right)
@@ -65,9 +66,24 @@ Here is a directory of this 'REAME.md' file:
 
 <br>
 
-## 1. Game Idea <a name = "gameidea"></a>
+## 1. Game Idea <a name = "gameidea"></a>  
+The design of this 2D Unity game is heavily inspired from [original (OG) Super Mario Bros.](https://supermarioplay.com/) and [Genshin Impact](https://genshin.hoyoverse.com/en), both games that I have played before, with also many aspects of the initial ideas of the game from my friend, [WolfPark](https://github.com/wolfparktaerim). 
 
-Idea started from [WolfPark](https://github.com/wolfparktaerim) 
+*Aspects of the 2D Unity game inspired by the OG Super Mario Bros.:*  
+- The 2D level design
+- Character movement
+- Enenmy NPC behaviour 
+- Health system and damage system
+- The pixel-style art aesthetics
+
+*Aspects of the 2D Unity game inspired by Genshin Impact:*  
+- Friendly NPC interaction feature
+- Interaction-related game objective (e.g. the ''1. Find a way to leave the castle-village' game objective)
+
+*Aspects of the 2D Unity game inspired by [WolfPark](https://github.com/wolfparktaerim):*  
+- The story of the 2D Unity game (though I did not make it as detailed)
+- The idea for the respective areas of the 2D Unity game, of a 'home' area, a forest with enemies, and an end objective ([WolfPark](https://github.com/wolfparktaerim) wanted a boss fight, but it took too much effort, so eventually I made the end objective a less programming-intensive one, finding and claiming a 'prize')
+- Recommendation of a copyright free, [AIVA](https://www.aiva.ai/) AI music generator, which I used to generate a suitable music for this 2D Unity game
 
 *Source(s):*  
 nil
@@ -75,9 +91,41 @@ nil
 <br>
 
 ## 2. Building Process of this 2D Unity Game <a name = "buildingprocess"></a>
+This 2D Unity game is built the [Unity](https://unity.com/) game development framework, so obviusly the building process is mainly done in the [Unity](https://unity.com/) editor/software, with C# script components scripting done on the VS code IDE. 
 
-Heavily inspired from Mario and genshin (interaction stuffs), the pixel style art, and the movements of the game, and objectives
-This game is built on Unity, so obviusly will need to download [Unity](https://unity.com/download), and an IDE to do the C# script coding, which I used VS code
+**What are those meta files:**
+
+**About the folders that make up this 2D Unity game:**
+By right, a Unity project/game is actually made up of more folders than those that are present in this repository such as the 'Library' and 'UserSettings' folders, but these remaining folders are ignored by the Github via the Unity '.gitignore' file in this repository (to save space in Github's servers), as they are not as important, and will be re-created anyway when you re-download the source code of this 2D Unity game (basically all the folders in this 2D Unity game repository) and re-import them to the Unity editor/software (more on how to do these in the '5. How to download and use this Unity source code on Github in your Unity editor/software?' section below). 
+
+The 'Packages' and 'ProjectSettings' folders are auto generated folders by Unity as you create a Unity project/game. Not super sure what exactly it is they do, but they are required and are not to be modified to prevent any bugs, together with the most important, 'Assets' folder, that are basically the codes that are essentially your Unity project/game.
+
+The 'Assets' folder is the most important folder that makes up your Unity project/game which, for this 2D Unity game (since the type of folders in this 'Asset' folder varies for each Unity project/game, contains 4 seperate folders, 'C# Scripts', 'Music', 'Scenes' and 'Sprites'.
+
+**Components of the 2D Unity game and their sources:**  
+*C# Scripts:*  
+Despite taking the time to learn Unity's C# syntax as documented in my '[16.-Csharp-and-Unity-Learning](https://github.com/WindJammer6/16.-Csharp-and-Unity-Learning)' repository, that is only but a fraction of the Unity C# syntax. 
+
+So most of these C# scripts are actually generated by [ChatGPT](https://chat.openai.com/), while I modified them, based on what I know about the C# programming language and the Unity C# syntax, to fit the requirements of this 2D Unity game.
+
+*Music:*  
+Only 1 ambient-themed soundtrack by one of the C# scripts, set on loop, created by [AIVA](https://www.aiva.ai/), AI music generator.
+
+*Scenes:*
+"Scenes" folder within the "Assets" directory is a convention that many developers use to organize and manage their game scenes. A Unity scene is a container that holds all of your game objects, assets, and other elements for a specific part or level of your game. The "Scenes" folder is not a special folder in terms of Unity's functionality but is often created by developers to keep their project organized.
+
+Here's how it typically works:
+
+Scene Organization: Developers often create individual scenes for different parts of their game, such as main menus, levels, or specific gameplay sequences. Placing these scenes in a dedicated "Scenes" folder helps to keep them organized.
+
+2D unity game no main menu, only one scene in the game which is the level game scene
+
+*Sprites:*
+Bird sprite, which represents the character and NPCs is taken from the 'The Unity Tutorial For Complete Beginners' Youtube tutorial video by Game Maker's Toolkit (link: https://www.youtube.com/watch?v=XtQMytORBmM&t=1s).
+
+The rest of the sprites are taken from Googling. Variations in colour of the sprite, and the 'red bird character sprite with the bow' is done via [Photoshop](https://www.adobe.com/products/photoshop.html), while the scaling was done directly in the Unity editor/software itself.
+
+Text sprites are generated from an [online transparent text generator](https://www.picturetopeople.org/p2p/text_effects_generator.p2p/transparent_text_effect), created by Picture to People. 
 
 Bird sprite taken from the unity tutorial for complete beginners, and the cloud spawner code and idea too
 
@@ -90,11 +138,6 @@ https://github.com/WindJammer6/19.-2D-Unity-Game/assets/98175995/755ab70f-c03e-4
 https://github.com/WindJammer6/19.-2D-Unity-Game/assets/98175995/ecd2ea31-160f-48bb-b2c9-22edc9b3ba4f
 
 
-Other sprites is taken from googling and taking whatever music that pops up
-
-Variations in sprite colours, and sprite (like the bird holding a bow) is done using Photoshop
-
-the music is i use [AIVA](https://www.aiva.ai/), an AI that generates original music, to generate
 
 *Source(s):*  
 + https://www.youtube.com/watch?v=GCkq6XqyJZg&t=1529s (Zigurous) (Youtube video labelled 'How to make Super Mario Bros in Unity (Part 1) - Level Design' by Zigurous)
