@@ -95,14 +95,14 @@ This 2D Unity game is built the [Unity](https://unity.com/) game development fra
 
 **What are those meta files:**
 
-**About the folders that make up this 2D Unity game:**
+**About the folders that make up this 2D Unity game:**  
 By right, a Unity project/game is actually made up of more folders than those that are present in this repository such as the 'Library' and 'UserSettings' folders, but these remaining folders are ignored by the Github via the Unity '.gitignore' file in this repository (to save space in Github's servers), as they are not as important, and will be re-created anyway when you re-download the source code of this 2D Unity game (basically all the folders in this 2D Unity game repository) and re-import them to the Unity editor/software (more on how to do these in the '5. How to download and use this Unity source code on Github in your Unity editor/software?' section below). 
 
 The 'Packages' and 'ProjectSettings' folders are auto generated folders by Unity as you create a Unity project/game. Not super sure what exactly it is they do, but they are required and are not to be modified to prevent any bugs, together with the most important, 'Assets' folder, that are basically the codes that are essentially your Unity project/game.
 
 The 'Assets' folder is the most important folder that makes up your Unity project/game which, for this 2D Unity game (since the type of folders in this 'Asset' folder varies for each Unity project/game, contains 4 seperate folders, 'C# Scripts', 'Music', 'Scenes' and 'Sprites'.
 
-**Components of the 2D Unity game and their sources:**  
+**'Assets' folder's components of the 2D Unity game and their sources:**  
 *C# Scripts:*  
 Despite taking the time to learn Unity's C# syntax as documented in my '[16.-Csharp-and-Unity-Learning](https://github.com/WindJammer6/16.-Csharp-and-Unity-Learning)' repository, that is only but a fraction of the Unity C# syntax. 
 
