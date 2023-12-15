@@ -78,7 +78,7 @@ The design of this 2D Unity game is heavily inspired from [original (OG) Super M
 
 *Aspects of the 2D Unity game inspired by [Genshin Impact](https://genshin.hoyoverse.com/en):*  
 - Friendly NPC interaction feature
-- Interaction-related game objective (e.g. the ''1. Find a way to leave the castle-village' game objective)
+- Interaction-related game objective (e.g. the '1. Find a way to leave the castle-village' game objective)
 
 *Aspects of the 2D Unity game inspired by [WolfPark](https://github.com/wolfparktaerim):*  
 - The story of the 2D Unity game (though I did not make it as detailed)
