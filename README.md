@@ -72,7 +72,7 @@ The design of this 2D Unity game is heavily inspired from [original (OG) Super M
 *Aspects of the 2D Unity game inspired by the [OG Super Mario Bros.](https://supermarioplay.com/):*  
 - The 2D level design
 - Character movement
-- Enenmy NPC behaviour 
+- Enemy NPC behaviour 
 - Health system and damage system
 - The pixel-style art aesthetics
 
