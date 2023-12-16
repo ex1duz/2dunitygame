@@ -64,7 +64,7 @@ Here is a directory of this 'REAME.md' file:
 3. [Deployment Process of this 2D Unity Game](#deploymentprocess)
 4. [How to upload a Unity game into Github?](#howtoupload)
 5. [How to download and use this Unity source code on Github in your Unity editor/software?](#howtodownloadanduse)
-6. [Potential Improvements]
+6. [Potential Improvements](#potentialimprovements)
 
 <br>
 
@@ -202,7 +202,7 @@ I was super confused at first when the game scene is empty and i thought i was m
 *Source(s):*  
 + https://www.youtube.com/watch?v=I9QK_2QW9W8 (Unity Hero) (Youtube video labelled 'How to import GitHub projects into Unity!' by Unity Hero) 
 
-## 6. Potential Improvements 
+## 6. Potential Improvements <a name = "potentialimprovements"></a>
 
 improvements: boss fight
 restart/respawn feature if chafacter dies
