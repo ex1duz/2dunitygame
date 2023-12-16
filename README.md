@@ -132,7 +132,10 @@ Bird sprite taken from the unity tutorial for complete beginners, and the cloud 
 
 
 **Steps of the Building Process of this 2D Unity game:**  
-1. Creating the level, and it's respective areas
+1. Creating the background level design and it's respective areas ('Village', 'Open Plains', 'Forest' and the final area with the legendary sword)
+2. Creating the player character GameObject, and attaching the required GameObject components (e.g. 'SpriteRenderer', 'BoxCollider2D', 'RigidBody2D', etc) and C# scripts to define its behaviours
+3. Creating the friendly NPCs, and attaching the required GameObject components and C# scripts to define its behaviours
+4. Creating the friendly NPCs, and attaching the required GameObject components and C# scripts to define its behaviours
 
 
 
