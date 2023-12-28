@@ -195,42 +195,42 @@ Honestly, the 'How To Build & Deploy Your Games With WebGL' Youtube video by GDT
 
 <br>
 
-## 4. Potential Improvements to this 2D Unity Game <a name = "potentialimprovements"></a>
+## 4. Potential Improvements to this 2D Unity Game <a name = "potentialimprovements"></a>  
+*Adding features:*  
 + Adding a boss fight
-+ Adding a restart/respawn of the player character feature if chacacter dies, rather than just showing the 'Game Over' message
++ Adding a restart/respawn of the player character feature (maybe can set the respawn point at the 'Village' area in the 2D Unity game?) if chacacter dies, rather than just showing the 'Game Over' message
 + Adding a feature where the area name that the player character is currently at is only briefly showed rather than it being a fixed text sprite in the 2D Untiy game game level scene, with a transition of the music being played based on the area. (Possible to use some sort of invisible trigger GameObject, and a time delay with fading effect of the music soundtracks upon triggering the entering of a different area before playing the corresponding music of that area for a more smoother music soundtrack transistion.)
++ Adding a 'Main Menu' game scene (with a replay game and exit game options?) and a 'Safehouse' game scene (which allows the player character to regain health upon entering the 'Safehouse' game scene?) (might be able to do this by creating different 'Unity scene' files in the 'Scenes' folder within the 'Assets' folder in the Unity editor/software)
+
+*Fixing bugs:*  
 + Fixing of the bug where the player character might sometimes rotate due to incorrect game physics
-+ Fixing of the bug where friendly NPCs are affected and can be 'pushed' by the player character's projectile even though they should desirably be unaffected by the projectiles (maybe can make 
++ Fixing of the bug where friendly NPCs are affected and can be 'pushed' by the player character's projectiles even though they should desirably be unaffected by the projectiles (maybe can create an additional C# script, making use of the 'Physics.IgnoreCollision' Unity C# function to ignore the collisions between the friendly NPCs and the projectiles, and attaching it to the friendly NPC GameObjects)
 enemy NPC should not rotate or leave the ground or chase endlessly? and stop chasing and returning upon character going too far
-bug of jumping out of map
-safehouse map? To regain HP as safe zone
-main menu
-replay game or exit upon finishing the game feature
-
-Using scenes folder in assets folder:  
-2D unity game no main menu, only one scene in the game which is the level game scene
-
-Could have created a main menu game scene here or the safehouse seperate game scene
++ Fixing of the bug where the player character can climb the high walls at the start and end of the 2D Unity game game level and leaving the game level map
 
 <br>
 
 ## 5. Technicalities between Unity and Github <a name = "unityandgithub"></a>  
-### How to upload a Unity game into Github? <a name = "howtoupload"></a>
+Once I completed this 2D Unity game, I wanted to be able to document the process of creating this 2D Unity game on Github, as well as being able to somehow upload the 2D Unity game files onto Github and re-download the 2D Unity game files to re-import them into my Unity editor/software. However, it took me quite a while to figure out how to upload a Unity game into Github and download and re-import Unity game source codes from Github into the Unity editor/software. So I thought I'll document how to do these 2 processes here as well.
 
+<br>
+
+### How to upload a Unity game into Github? <a name = "howtoupload"></a>
+Honestly, the 'How to Upload your Unity Projects to GitHub In 2023' Youtube video by GDTitans (link: https://www.youtube.com/watch?v=YymhtHtHDb8&t=8s) explains very clearly step by step on how to upload a Unity project/game into Github. 
+
+*A bit more about the '.gitignore' file in this repository:*  
 In reality, my Unity project/game is made up of the following folders:  
 - Assets
-- Library
-- Logs
+- Library (not present in this repository)
+- Logs (not present in this repository)
 - Packages
 - ProjectSettings
-- UserSettings
+- UserSettings (not present in this repository)
 
-Which, you might have noticed that some of the folders are missing in this Github repository. This is because during uploading of a Unity project/game into Github (see how this is done in the *'Technicalities between Unity and Github'* section below), Github creates a special file called the '[.gitignore](https://github.com/WindJammer6/19.-2D-Unity-Game/blob/main/.gitignore)' file, which allows Github to ignore the filesmore folders than those that are present in this repository such as the 'Library' and 'UserSettings' folders, but these remaining folders are ignored by the Github via the Unity '.gitignore' file in this repository (to save space in Github's servers), as they are not as important, and will be re-created anyway when you re-download the source code of this 2D Unity game (basically all the folders in this 2D Unity game repository) and re-import them to the Unity editor/software (more on how to do these in the '5. How to download and use this Unity source code on Github in your Unity editor/software?' section below). 
+Which, you might have noticed that some of the folders are missing in this Github repository. This is because during uploading of a Unity project/game into Github as shown in the Youtube video, Github creates a special file called the '[.gitignore](https://github.com/WindJammer6/19.-2D-Unity-Game/blob/main/.gitignore)' file, which allows Github to ignore the files that are unnecessary for collaboration or version history such as files that are generated during the development process, temporary files, build artifacts, etc. for reasons such as for version control and saving space in Github's servers. In the context of Unity, such unnecessary files are the files in the 'Library', 'Logs' and 'UserSettings' folders, which are not required and are generated automatically anyway when you re-download and re-import the more important 'Assets', 'Packages' and 'ProjectSettings' folders into the Unity editor/software from Github (basically the remaining folders that I have provided here in this repository)
 
-Tbh just follow this vid link step by step
-
-Turns out no need all folders, just do gitignore, and it will automatically omit those useless ones, (like logs and usersettings and library) except the important ones that you need ,assets, project settings and packages which are the only files you need for other people to recreate your game in the Unity ediotr/software
-
+Taking a peek at the code in this '[.gitignore](https://github.com/WindJammer6/19.-2D-Unity-Game/blob/main/.gitignore)' file in Github for Unity:
+```
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
@@ -242,6 +242,9 @@ Turns out no need all folders, just do gitignore, and it will automatically omit
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+```
+
+Which shows us the types of folder in a Unity project/game that the '[.gitignore](https://github.com/WindJammer6/19.-2D-Unity-Game/blob/main/.gitignore)' file in Github for Unity will ignore, which includes the 'Library', 'Logs' and 'UserSettings' folders.
 
 *Source(s):*  
 + https://www.youtube.com/watch?v=YymhtHtHDb8&t=8s (GDTitans) (Youtube video labelled 'How to Upload your Unity Projects to GitHub In 2023' by GDTitans)
@@ -249,10 +252,11 @@ Turns out no need all folders, just do gitignore, and it will automatically omit
 <br>
 
 ### How to download and use this Unity source code on Github in your Unity editor/software? <a name = "howtodownloadanduse"></a>
+Honestly, the 'How to import GitHub projects into Unity!' Youtube video by Unity Hero (link: https://www.youtube.com/watch?v=I9QK_2QW9W8) explains very clearly step by step on how to download and use a Unity source code on Github in your Unity editor/software.
 
-Tbh just follow this vid instructions
+Initially, I managed to re-download and re-import this 2D Unity game from this 2D Unity game Giithub repository. However, when I re-opened the re-imported 2D Unity game in the Unity editor/software, I was super confused when the game scene in the Unity editor/software is empty and i thought I might have been missing an important folder that I should have uploaded into this 2D Unity game repository from my original 2D Unity game folder from the Unity editor/software in my computer. 
 
-I was super confused at first when the game scene is empty and i thought i was miasing a folder or sth. Turns out you just need to go to the scenes folder and click on the sample scene to reopen your game scene, with other tour gameobjects in it, without having to reimport all manually, which I almost wanted to do. All you need is the most important 3 folders assets of other ppls Unity project/game package and projectsettings folder to repoen other ppls uni5y project/game on github. You don't need any other folders. Just open the game 'scene' file in the 'asset', 'scene' folder in Unity editor then you should see their game visually in the unity editor.
+However, it turns out, which this Youtube video showed me, is just that I needed to go to the 'Scenes' folder within the 'Assets' folder in the Unity editor/software, and click on the default 'Unity scene' file titled 'SampleScene' to re-open the original game scene visually in the game view in the Unity editor/software, with all my GameObjects and C# scripts placed at where they should be as the original 2D Unity game's copy, without having to re-add them all manually, which I almost wanted to do 😢. 
 
 *Source(s):*  
 + https://www.youtube.com/watch?v=I9QK_2QW9W8 (Unity Hero) (Youtube video labelled 'How to import GitHub projects into Unity!' by Unity Hero) 
