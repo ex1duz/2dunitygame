@@ -3,14 +3,14 @@ While trying to develop a 2D Unity game for a friend of mine (Github: [WolfPark]
 
 Here is the link of the deployed 2D Unity game on '[itch.io](https://itch.io/)': https://windjammer6.itch.io/2d-unity-game-by-windjammer6 (Click the link to play the game!)
 
-Here is a demonstration of 'winning' the 2D Unity game:
+Here is a demonstration of 'winning' the 2D Unity game, when the player successfully find the legendary sword:
 
 
 https://github.com/WindJammer6/19.-2D-Unity-Game/assets/98175995/214bc246-3191-4908-95a5-9f5b54e82734
 
 
 
-Here is a demonstration of 'losing' the 2D Unity game:
+Here is a demonstration of 'losing' the 2D Unity game, when the player's health reaches zero:
 
 
 https://github.com/WindJammer6/19.-2D-Unity-Game/assets/98175995/0d0364c2-50fb-4e1c-815c-3e8986bcbbfc
@@ -23,7 +23,7 @@ Disclaimer: This 2D Unity game does not work for mobile, only for laptop, PC, or
 
 <br>
 
-**Features of the 2D Unity game:**  
+### Features of the 2D Unity game:  
 For this prototype 2D Unity game, there is a very vague storyline, as I did not dwell too much on that, but it is more focused towards adding various interesting features via C# programming into the game. Here is a list of features in the 2D Unity game:  
 
 *Character-related:*  
@@ -51,12 +51,9 @@ For this prototype 2D Unity game, there is a very vague storyline, as I did not 
 2. Survive the forest with enemies using the 'bow' weapon (if the character loses all its health then you will lose the game)
 3. Obtain the legendary sword at the end of the level to clear the game successfully
 
-Links sources when building the Unity game: https://www.youtube.com/watch?v=XtQMytORBmM&t=1s (Intro to Unity)  
 https://www.youtube.com/watch?v=msTvOG4w80I (how to add animation to the sprites in Unity)
 
-https://www.youtube.com/watch?v=CO4BGZOuUkM (how to run C# code in vscode youtube vid)
-
-https://www.youtube.com/watch?v=GhQdlIFylQ8&t=12271s (learn C# code archives youtube vid)
+<br>
 
 ## Table of Contents
 Here is a directory of this 'REAME.md' file:
@@ -71,7 +68,7 @@ Here is a directory of this 'REAME.md' file:
 <br>
 
 ## 1. Game Idea <a name = "gameidea"></a>  
-The design of this 2D Unity game is heavily inspired from [original (OG) Super Mario Bros.](https://supermarioplay.com/) and [Genshin Impact](https://genshin.hoyoverse.com/en), both games that I have played before, with also many aspects of the initial ideas of the game from my friend, [WolfPark](https://github.com/wolfparktaerim). 
+The design of this 2D Unity game is heavily inspired from the [original (OG) Super Mario Bros.](https://supermarioplay.com/) and [Genshin Impact](https://genshin.hoyoverse.com/en), both games that I have played before, with also many aspects of the initial ideas of the game from my friend, [WolfPark](https://github.com/wolfparktaerim). 
 
 *Aspects of the 2D Unity game inspired by the [OG Super Mario Bros.](https://supermarioplay.com/):*  
 - The 2D level design
@@ -86,7 +83,7 @@ The design of this 2D Unity game is heavily inspired from [original (OG) Super M
 
 *Aspects of the 2D Unity game inspired by [WolfPark](https://github.com/wolfparktaerim):*  
 - The story of the 2D Unity game (though I did not make it as detailed)
-- The idea for the respective areas of the 2D Unity game, of a 'home' area, a forest with enemies, and an end objective ([WolfPark](https://github.com/wolfparktaerim) wanted a boss fight, but it took too much effort, so eventually I made the end objective a less programming-intensive one, finding and claiming a 'prize')
+- The idea for the respective areas of the 2D Unity game, of a 'home' area, a forest with enemies, and an end objective (Also, [WolfPark](https://github.com/wolfparktaerim) wanted a boss fight, but it took too much effort, so eventually I made the end objective a less programming-intensive one, finding and claiming a 'prize')
 - Recommendation of a copyright free, [AIVA](https://www.aiva.ai/) AI music generator, which I used to generate a suitable music for this 2D Unity game
 
 *Source(s):*  
@@ -95,69 +92,85 @@ nil
 <br>
 
 ## 2. Building Process of this 2D Unity Game <a name = "buildingprocess"></a>
-This 2D Unity game is built on the [Unity](https://unity.com/) game development framework, so obviusly the building process is mainly done in the [Unity](https://unity.com/) editor/software, with C# script components scripting done on the VS code IDE. 
+This 2D Unity game is built on the [Unity](https://unity.com/) game development framework, so obviusly the building process is mainly done in the [Unity](https://unity.com/) editor/software, with the C# script components scripting done on the[VS code](https://code.visualstudio.com/) IDE. 
 
 **What are those meta files:**
 
+<br>
+
 **About the folders that make up this 2D Unity game:**  
-By right, a Unity project/game is actually made up of more folders than those that are present in this repository such as the 'Library' and 'UserSettings' folders, but these remaining folders are ignored by the Github via the Unity '.gitignore' file in this repository (to save space in Github's servers), as they are not as important, and will be re-created anyway when you re-download the source code of this 2D Unity game (basically all the folders in this 2D Unity game repository) and re-import them to the Unity editor/software (more on how to do these in the '5. How to download and use this Unity source code on Github in your Unity editor/software?' section below). 
+In reality, my Unity project/game is made up of the following folders:  
+- Assets
+- Library (not present in repository)
+- Logs (not present in repository)
+- Packages
+- ProjectSettings
+- UserSettings (not present in repository)
 
-The 'Packages' and 'ProjectSettings' folders are auto generated folders by Unity as you create a Unity project/game. Not super sure what exactly it is they do, but they are required and are not to be modified to prevent any bugs, together with the most important, 'Assets' folder, that are basically the codes that are essentially your Unity project/game.
+However, you might noticed that there are some folders that should be there that makes up my Unity project/game that aren't present in this repository such as the 'Library', 'Logs' and 'UserSettings' folders. See the section *'How to upload a Unity game into Github?'* in *'Technicalities between Unity and Github'* below for the reason.
 
-The 'Assets' folder is the most important folder that makes up your Unity project/game which, for this 2D Unity game (since the type of folders in this 'Asset' folder varies for each Unity project/game), contains 4 seperate folders, 'C# Scripts', 'Music', 'Scenes' and 'Sprites'.
++ The 'Assets' folder is the most important folder that contains the various files and resources used to create and run a Unity project/game, including 3D models, textures, scripts, audio files, animations, and more. The 'Assets' folder is also the root directory for your Unity project, and it organizes all of these assets in a hierarchical structure. For this 2D Unity game (since the type of folders in this 'Assets' folder varies for each Unity project/game), the 'Assets' folder contains 4 seperate folders, 'C# Scripts', 'Music', 'Scenes' and 'Sprites'.
++ The 'Packages' and 'ProjectSettings' folders are auto generated folders by Unity as you create a Unity project/game. Not super sure what exactly it is they do, but they are required and are not to be modified to prevent any bugs. They are required to be imported together with the most important 'Assets' folder,  into the Unity editor/software from Github in order to recreate a Unity project/game. See the section *'How to download and use this Unity source code on Github in your Unity editor/software?'* in *'Technicalities between Unity and Github'* below for more details.
+
+<br>
 
 **About the 4 folders in the 'Assets' folder of this 2D Unity game:**  
 *C# Scripts:*  
+Contains the C# scripts used in this 2D Unity game.
+
 Despite taking the time to learn Unity's C# syntax as documented in my '[16.-Csharp-and-Unity-Learning](https://github.com/WindJammer6/16.-Csharp-and-Unity-Learning)' repository, that is only but a fraction of the Unity C# syntax. 
 
-So most of these C# scripts are actually generated by [ChatGPT](https://chat.openai.com/), while I modified them, based on what I know about the C# programming language and the Unity C# syntax, to fit the requirements of this 2D Unity game.
+So most of these C# scripts are actually generated by [ChatGPT](https://chat.openai.com/), while I modified them while fixing their bugs, based on what I know about the C# programming language and the Unity C# syntax, to fit the requirements of this 2D Unity game.
 
 *Music:*  
-Only 1 ambient-themed soundtrack by one of the C# scripts, set on loop, created by [AIVA](https://www.aiva.ai/), AI music generator.
+Contains the music used in this 2D Untiy game.  
+- An ambient-themed soundtrack created by [AIVA](https://www.aiva.ai/), an AI music generator, which is set on loop using a C# script in this 2D Unity game.
 
-*Scenes:*(not doneee)  
-"Scenes" folder within the "Assets" directory is a convention that many developers use to organize and manage their game scenes. A Unity scene is a container that holds all of your game objects, assets, and other elements for a specific part or level of your game. The "Scenes" folder is not a special folder in terms of Unity's functionality but is often created by developers to keep their project organized.
+*Scenes:*  
+Contains the Unity scenes used in this 2D Unity game.
+- The only 2D game level/scene of this 2D Unity game
 
-Here's how it typically works:
-
-Scene Organization: Developers often create individual scenes for different parts of their game, such as main menus, levels, or specific gameplay sequences. Placing these scenes in a dedicated "Scenes" folder helps to keep them organized.
-
-2D unity game no main menu, only one scene in the game which is the level game scene
-
-Could have created a main menu game scene here or the safehouse seperate game scene
+A Unity scene is a container that holds all of the GameObjects, assets, and other elements for a specific part or level of your game.
 
 *Sprites:*  
-Bird sprite, which represents the character and NPCs is taken from the 'The Unity Tutorial For Complete Beginners' Youtube tutorial video by Game Maker's Toolkit (link: https://www.youtube.com/watch?v=XtQMytORBmM&t=1s).
-
-The rest of the image sprites are taken from Googling. Variations in colour of the sprite, and the 'red bird character sprite with the bow' sprite is done via [Photoshop](https://www.adobe.com/products/photoshop.html), while the scaling was done directly in the Unity editor/software itself.
-
-Text sprites are generated from an [online transparent text generator](https://www.picturetopeople.org/p2p/text_effects_generator.p2p/transparent_text_effect), created by Picture to People. 
+Contains the sprites used in this 2D Unity game.  
+- Bird sprite, which represents the character and NPCs is taken from the 'The Unity Tutorial For Complete Beginners' Youtube tutorial video by Game Maker's Toolkit (link: https://www.youtube.com/watch?v=XtQMytORBmM&t=1s).
+- The rest of the image sprites are taken from Googling.
+- Variations in colour of the sprites, and the 'red bird character sprite with the bow' sprite is done via [Photoshop](https://www.adobe.com/products/photoshop.html)
+- Scaling of the sprites was done directly in the Unity editor/software itself.
+- Text sprites are generated from an [online transparent text generator](https://www.picturetopeople.org/p2p/text_effects_generator.p2p/transparent_text_effect), created by Picture to People. 
 
 Bird sprite taken from the unity tutorial for complete beginners, and the cloud spawner code and idea too
 
+<br>
 
 **Steps of the Building Process of this 2D Unity game:**  
-1. Creating the background level design and it's respective areas ('Village', 'Open Plains', 'Forest' and the final area with the legendary sword)
+1. Creating the background level design and it's respective areas ('Village', 'Open Plains', 'Forest' and the final area with the legendary sword) (learnt how to do this from the 'How to make Super Mario Bros in Unity (Part 1) - Level Design' and 'How to make Super Mario Bros in Unity (Part 2) - Movement/Physics' Youtube videos by Zigurous (links: https://www.youtube.com/watch?v=GCkq6XqyJZg&t=1529s and https://www.youtube.com/watch?v=SPe1xh4D7Wg&t=3480s respectively))
 2. Creating the player character GameObject, and attaching the required GameObject components (e.g. 'SpriteRenderer', 'BoxCollider2D', 'RigidBody2D', etc) and C# scripts to define its behaviours (excluding health and combat systems)
 3. Attaching the C# script that tells the main camera GameObject to follow the position of the character during the game
 3. Creating the friendly and enemy NPCs, and attaching the required GameObject components and C# scripts to define its behaviours (excluding the health and combat systems of the enemy NPCs)
-4. Creating the friendly NPC interaction features, while incorporating the '1. Find a way to leave the castle-village' interaction-related game objective, and the claiming-the-legendary-sword interaction to 'win' the game
+4. Creating the friendly NPC interaction features, while incorporating the '1. Find a way to leave the castle-village' interaction-related game objective, and the '3. Obtain the legendary sword at the end of the level to clear the game successfully' interaction to 'win' the game
 5. Creating the player character and enemy NPCs' health and combat systems
-6. Creating the cloud movement and spawner feature
-7. Creating a music player GameObject that plays the [AIVA](https://www.aiva.ai/) AI ambient music soundtrack on loop
-8. Adding the 'winning' and 'losing' message and hitpoints show thing and instructions sprites (they are just basically sprites that are turned active or not based on the condition)
-
+6. Creating the cloud movement and spawner feature (the code and idea for this feature is also taken from the 'The Unity Tutorial For Complete Beginners' Youtube tutorial video by Game Maker's Toolkit (link: https://www.youtube.com/watch?v=XtQMytORBmM&t=1s))  
+*Editorial view of the cloud movement and spawner feature:*
 
 
 
 https://github.com/WindJammer6/19.-2D-Unity-Game/assets/98175995/755ab70f-c03e-404d-b0d2-cb05385884ca
 
 
+*Game view of the cloud movement and spawner feature:*
 
 
 https://github.com/WindJammer6/19.-2D-Unity-Game/assets/98175995/ecd2ea31-160f-48bb-b2c9-22edc9b3ba4f
 
 
+
+
+8. Creating a music player GameObject, which has the [AIVA](https://www.aiva.ai/) AI ambient music soundtrack and a C# script attached to it which tells the Unity editor/software to play the soundtrack on loop (learnt how to do this from the 'How to play background music in Unity' Youtube video by Tony Morelli (link: https://www.youtube.com/watch?v=eB3I4l0AED0&t=81s))
+9. Adding the 'Congrats you found the Legendary Sword. Thanks for playing!' (winning) and 'Game Over' (losing) messages, player health tracker/label, and the 2D Unity game instructions' text sprites
+
+Note: As of now, I have been using a pretty sketchy method to get some of the features to work, which is by turning text sprites active or inactive in C# scripts via the '.SetActive()' Unity C# function based on a condition. E.g. Setting the 'Interact' text sprites active when the player character move into the trigger range of the friendly NPC, then setting them inactive when they leave the trigger range, and, using multiple text sprites layered over one another, then setting them active when needed and inactive otherwise for the dialogues.  
 
 *Source(s):*  
 + https://www.youtube.com/watch?v=GCkq6XqyJZg&t=1529s (Zigurous) (Youtube video labelled 'How to make Super Mario Bros in Unity (Part 1) - Level Design' by Zigurous)
@@ -167,17 +180,15 @@ https://github.com/WindJammer6/19.-2D-Unity-Game/assets/98175995/ecd2ea31-160f-4
 + https://www.adobe.com/products/photoshop.html (Photoshop)
 + https://www.youtube.com/watch?v=eB3I4l0AED0&t=81s (Tony Morelli) (Youtube video labelled 'How to play background music in Unity' by Tony Morelli) here is where i learnt to understand the C# script generated by chatgpt to add music to my game and allow it to loop
 + https://www.aiva.ai/ (AIVA)
-+ https://chat.openai.com/c/f45522bd-c449-4c7f-aebc-15d58cb1cd44 (CHatGPT) most of the C# scripts components is created first with chatgpt then edited by me to fit my game, and troubleshooting any bugs
++ https://chat.openai.com/c/f45522bd-c449-4c7f-aebc-15d58cb1cd44 (ChatGPT)
  
 <br>
 
 ## 3. Deployment Process of this 2D Unity Game <a name = "deploymentprocess"></a>
+Honestly, the 'How To Build & Deploy Your Games With WebGL' Youtube video by GDTitans (link: https://www.youtube.com/watch?v=UK7SEoiSB2c) explains very clearly step by step on how to deploy a Unity project/game. There are various platforms where you can deploy your Unity project/game, however, I just followed and deployed on the same platform as demonstrated in this video, '[itch.io](https://itch.io/)'. Once deployed, I got a direct '[itch.io](https://itch.io/)' link to this 2D Unity game, which I can then share with others to try out this 2D Unity game.
 
-Deployed on '[itch.io](https://itch.io/)', here is my 'itch.io' account https://windjammer6.itch.io/, as recommended by the GDTitans in the youtube vid
-
-Here the specific game link: https://windjammer6.itch.io/2d-unity-game-by-windjammer6
-
-Just follow the vid's instructions tbh then you can get the deployed game link, which you can share with others, who will then be able to play your game when they click the link
+- Here is the link of my '[itch.io](https://itch.io/)' account of the username:, 'WindJammer6' - https://windjammer6.itch.io/.
+- Here is the link of this deployed 2D Unity game on '[itch.io](https://itch.io/)' - https://windjammer6.itch.io/2d-unity-game-by-windjammer6
 
 *Source(s):*  
 + https://www.youtube.com/watch?v=UK7SEoiSB2c (GDTitans) (Youtube video labelled 'How To Build & Deploy Your Games With WebGL' by GDTitans)
@@ -185,26 +196,52 @@ Just follow the vid's instructions tbh then you can get the deployed game link, 
 <br>
 
 ## 4. Potential Improvements to this 2D Unity Game <a name = "potentialimprovements"></a>
-
-improvements: boss fight
-restart/respawn feature if chafacter dies
-area name with trigger and music changes
-character is still a bit buggy as it might rotate
-friemdly NPCs should not be able to hit by projectiles
++ Adding a boss fight
++ Adding a restart/respawn of the player character feature if chacacter dies, rather than just showing the 'Game Over' message
++ Adding a feature where the area name that the player character is currently at is only briefly showed rather than it being a fixed text sprite in the 2D Untiy game game level scene, with a transition of the music being played based on the area. (Possible to use some sort of invisible trigger GameObject, and a time delay with fading effect of the music soundtracks upon triggering the entering of a different area before playing the corresponding music of that area for a more smoother music soundtrack transistion.)
++ Fixing of the bug where the player character might sometimes rotate due to incorrect game physics
++ Fixing of the bug where friendly NPCs are affected and can be 'pushed' by the player character's projectile even though they should desirably be unaffected by the projectiles (maybe can make 
 enemy NPC should not rotate or leave the ground or chase endlessly? and stop chasing and returning upon character going too far
 bug of jumping out of map
 safehouse map? To regain HP as safe zone
 main menu
 replay game or exit upon finishing the game feature
 
+Using scenes folder in assets folder:  
+2D unity game no main menu, only one scene in the game which is the level game scene
+
+Could have created a main menu game scene here or the safehouse seperate game scene
+
 <br>
 
 ## 5. Technicalities between Unity and Github <a name = "unityandgithub"></a>  
 ### How to upload a Unity game into Github? <a name = "howtoupload"></a>
 
+In reality, my Unity project/game is made up of the following folders:  
+- Assets
+- Library
+- Logs
+- Packages
+- ProjectSettings
+- UserSettings
+
+Which, you might have noticed that some of the folders are missing in this Github repository. This is because during uploading of a Unity project/game into Github (see how this is done in the *'Technicalities between Unity and Github'* section below), Github creates a special file called the '[.gitignore](https://github.com/WindJammer6/19.-2D-Unity-Game/blob/main/.gitignore)' file, which allows Github to ignore the filesmore folders than those that are present in this repository such as the 'Library' and 'UserSettings' folders, but these remaining folders are ignored by the Github via the Unity '.gitignore' file in this repository (to save space in Github's servers), as they are not as important, and will be re-created anyway when you re-download the source code of this 2D Unity game (basically all the folders in this 2D Unity game repository) and re-import them to the Unity editor/software (more on how to do these in the '5. How to download and use this Unity source code on Github in your Unity editor/software?' section below). 
+
 Tbh just follow this vid link step by step
 
 Turns out no need all folders, just do gitignore, and it will automatically omit those useless ones, (like logs and usersettings and library) except the important ones that you need ,assets, project settings and packages which are the only files you need for other people to recreate your game in the Unity ediotr/software
+
+# This .gitignore file should be placed at the root of your Unity project directory
+#
+# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
+#
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
 
 *Source(s):*  
 + https://www.youtube.com/watch?v=YymhtHtHDb8&t=8s (GDTitans) (Youtube video labelled 'How to Upload your Unity Projects to GitHub In 2023' by GDTitans)
