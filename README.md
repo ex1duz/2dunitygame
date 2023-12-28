@@ -51,8 +51,6 @@ For this prototype 2D Unity game, there is a very vague storyline, as I did not 
 2. Survive the forest with enemies using the 'bow' weapon (if the character loses all its health then you will lose the game)
 3. Obtain the legendary sword at the end of the level to clear the game successfully
 
-https://www.youtube.com/watch?v=msTvOG4w80I (how to add animation to the sprites in Unity)
-
 <br>
 
 ## Table of Contents
@@ -201,6 +199,7 @@ Honestly, the 'How To Build & Deploy Your Games With WebGL' Youtube video by GDT
 + Adding a restart/respawn of the player character feature (maybe can set the respawn point at the 'Village' area in the 2D Unity game?) if chacacter dies, rather than just showing the 'Game Over' message
 + Adding a feature where the area name that the player character is currently at is only briefly showed rather than it being a fixed text sprite in the 2D Untiy game game level scene, with a transition of the music being played based on the area. (Possible to use some sort of invisible trigger GameObject, and a time delay with fading effect of the music soundtracks upon triggering the entering of a different area before playing the corresponding music of that area for a more smoother music soundtrack transistion.)
 + Adding a 'Main Menu' game scene (with a replay game and exit game options?) and a 'Safehouse' game scene (which allows the player character to regain health upon entering the 'Safehouse' game scene?) (might be able to do this by creating different 'Unity scene' files in the 'Scenes' folder within the 'Assets' folder in the Unity editor/software)
++ Adding animations to the sprites in the game (I managed to find a Youtube video by Alexander Zotov labelled 'Unity 2D Tutorial About How To Create Idle Walk And Kick Animations For Game From Sprite Sheet' that shows how I might be able to do this in the Unity editor/software (link: https://m.youtube.com/watch?v=msTvOG4w80I)) 
 
 *Fixing bugs:*  
 + Fixing of the bug where the player character might sometimes rotate due to incorrect game physics
