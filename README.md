@@ -111,9 +111,6 @@ However, you might noticed that there are some folders that should be there that
 <br>
 
 **About the 4 folders in the 'Assets' folder of this 2D Unity game:**  
-
-<br>
-
 *C# Scripts:*  
 Contains the C# scripts used in this 2D Unity game.
 
