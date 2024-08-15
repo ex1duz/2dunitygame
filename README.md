@@ -195,7 +195,7 @@ As of now, I have been using a pretty sketchy method to get some of the features
 ## 3. Deployment Process of this 2D Unity Game <a name = "deploymentprocess"></a>
 Honestly, the 'How To Build & Deploy Your Games With WebGL' Youtube video by GDTitans (link: https://www.youtube.com/watch?v=UK7SEoiSB2c) explains very clearly step by step on how to deploy a Unity project/game. There are various platforms where you can deploy your Unity project/game, however, I just followed and deployed on the same platform as demonstrated in this video, '[itch.io](https://itch.io/)'. Once deployed, I got a direct '[itch.io](https://itch.io/)' link to this 2D Unity game, which I can then share with others to try out this 2D Unity game.
 
-- Here is the link of my '[itch.io](https://itch.io/)' account of the username:, 'WindJammer6' - https://windjammer6.itch.io/.
+- Here is the link of my '[itch.io](https://itch.io/)' account of the username:, 'WindJammer6' - https://windjammer6.itch.io/
 - Here is the link of this deployed 2D Unity game on '[itch.io](https://itch.io/)' - https://windjammer6.itch.io/2d-unity-game-by-windjammer6
 
 *Source(s):*  
