@@ -1,4 +1,4 @@
-# 19.-2D-Unity-Game :bird:🏰
+# 19.-Deployed-2D-Unity-Game :bird:🏰
 While trying to develop a 2D Unity game for a friend of mine (Github: [WolfPark](https://github.com/wolfparktaerim)), I thought that while my friend decides on the art aesthetics of the game, I could further familiarise myself with the process of creating a Unity game by creating a prototype 2D Unity game in advance, with sprites I found from Googling as a placeholder for the art aesthetics. This 2D Unity game can serve as the foundation for any further possible developments in the video game [WolfPark](https://github.com/wolfparktaerim) is trying to develop.
 
 Here is the link of the deployed 2D Unity game on '[itch.io](https://itch.io/)': https://windjammer6.itch.io/2d-unity-game-by-windjammer6 (Click the link to play the game!)
